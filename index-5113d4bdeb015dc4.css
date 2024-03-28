@@ -1,0 +1,195 @@
+@charset "UTF-8";
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+  height: 100%;
+}
+.hero-background.is-transparent {
+  opacity: 0.3;
+}
+
+.burger {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-brand, .navbar-tabs {
+  align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 10.25rem;
+}
+
+.navbar.is-primary {
+  background-color: #0985d8;
+  color: #fff;
+}
+
+.navbar.is-primary .navbar-brand .navbar-link.is-active,
+.navbar.is-primary .navbar-brand .navbar-link:focus,
+.navbar.is-primary .navbar-brand .navbar-link:hover,
+.navbar.is-primary .navbar-brand > a.navbar-item.is-active,
+.navbar.is-primary .navbar-brand > a.navbar-item:focus,
+.navbar.is-primary .navbar-brand > a.navbar-item:hover {
+  background-color: #2e9ed2;
+  color: #fff;
+}
+
+.navbar.is-primary .navbar-end .navbar-link.is-active,
+.navbar.is-primary .navbar-end .navbar-link:focus,
+.navbar.is-primary .navbar-end .navbar-link:hover,
+.navbar.is-primary .navbar-end > a.navbar-item.is-active,
+.navbar.is-primary .navbar-end > a.navbar-item:focus,
+.navbar.is-primary .navbar-end > a.navbar-item:hover,
+.navbar.is-primary .navbar-start .navbar-link.is-active,
+.navbar.is-primary .navbar-start .navbar-link:focus,
+.navbar.is-primary .navbar-start .navbar-link:hover,
+.navbar.is-primary .navbar-start > a.navbar-item.is-active,
+.navbar.is-primary .navbar-start > a.navbar-item:focus,
+.navbar.is-primary .navbar-start > a.navbar-item:hover {
+  background-color: #2ea2f0;
+  color: #fff;
+}
+
+.navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link,
+.navbar.is-primary .navbar-item.has-dropdown:focus .navbar-link,
+.navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link {
+  background-color: #2e9ed2;
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar, .navbar-end, .navbar-menu, .navbar-start {
+    align-items: end;
+    display: flex;
+    padding-bottom: 5px;
+  }
+}
+.navbar-brand {
+  align-items: end;
+}
+
+.home {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  align-items: center;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.notfound {
+  text-align: center;
+  padding-top: 15em;
+  padding-bottom: 15em;
+}
+
+.notfound h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.droid_header {
+  text-align: center;
+  font-size: 3em;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.droid_content {
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  align-items: center;
+}
+
+.about_content {
+  padding-left: 50px;
+}
+
+.about_content a {
+  font-size: 1.5em;
+}
+
+.windows {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  align-items: center;
+}
+
+.windows_content {
+  padding-left: 50px;
+}
+
+.privacy-policy-body {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.privacy-policy-body h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.privacy-policy-body h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.privacy-policy-body p {
+  font-size: 0.9em;
+}
+
+.privacy-policy-body ul {
+  font-size: 0.9em;
+}
+
+.privacy-policy-body ul li::before {
+  content: "•";
+  margin-right: 0.5em;
+}
+
+.privacy-policy-body li {
+  font-size: 0.9em;
+}
+
+.privacy-policy #app-title {
+  padding-top: 10px;
+  width: 10em;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.privacy-policy div #app-title {
+  background-color: #0985d8;
+}
+
+.linux {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  align-items: center;
+}
+
+.linux_content {
+  padding-left: 50px;
+}
